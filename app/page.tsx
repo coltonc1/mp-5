@@ -17,7 +17,7 @@ export default function Home() {
   }
 
   function displayResult() {
-    const urlToDisplay = "localhost:3000/" + alias;
+    const urlToDisplay = "https://mp-5-snowy.vercel.app/" + alias;
     if(status === "") {
       return (
         <>
@@ -40,7 +40,7 @@ export default function Home() {
         <div>
           <h4 className="text-2xl">Your shortened url:</h4>
           <a href={urlToDisplay}>
-            <h4 className="text-2xl">vercel.com/{alias}</h4>
+            <h4 className="text-2xl">https://mp-5-snowy.vercel.app/{alias}</h4>
           </a>
         </div>
       )
