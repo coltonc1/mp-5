@@ -12,7 +12,7 @@ export default async function createAlias(alias : string, urlGiven : string) {
     if (res.status != 200) {
         return "invalid url"
     }
-  } catch (e) {
+  } catch {
     return "invalid url"
   }
 
